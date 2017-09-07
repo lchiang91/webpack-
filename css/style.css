@@ -1,0 +1,135 @@
+*{padding: 0;
+  margin: 0;}
+  ul,li{list-style: none;}
+
+  
+  .carousel img{
+    width: 1600px;
+    height: 680px;
+  }
+  .carousel .img-ct{
+    display: flex;
+    position: absolute;
+  }
+  .carousel a{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+  }
+  .carousel{
+    position: relative;
+    height: 680px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  .carousel .arrow{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    margin-top: -15px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  .carousel .next{
+    left: 1240px;
+  }
+  .carousel .pre{
+    left: 0;
+  }
+  .carousel .arrow:hover{
+    opacity: 0.8;
+  }
+  .bullet {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
+.bullet > li {
+  width: 14px;
+  height: 14px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.bullet > li.active {
+  background-color: #FF6905;
+}
+.waterfall{
+  height: 1000px;
+}
+
+.waterfall ul,
+.waterfall li{list-style: none;}
+.waterfall{
+ max-width: 900px;
+ margin: 100px auto;
+}
+li,ul,p,div{
+ box-sizing: border-box;
+}
+.news-ct{
+ position: relative;
+}
+.item{
+ position: absolute;
+ border: 1px solid #ccc;
+ margin: 10px;
+ width: 280px;
+ opacity: 0;
+}
+.item img{
+ width: 260px;
+ margin: 10px;
+}
+.item h4{
+ border-bottom: 1px solid #ccc;
+ margin: 0 10px; 
+ height: 30px;           
+}
+.item p{
+ margin: 10px;
+ font-size: 13px;
+ color: #888;
+}
+.load-more{
+ margin-top: 30px;
+ text-align: center;
+}
+.load-more p{
+ padding: 15px;
+ display: inline-block;
+ background-color: #f88192;
+ border: 1px solid #f88192;
+ border-radius: 4px;
+ cursor: pointer;
+ color: #fff;
+}
+.gotop{
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  background: #f6bf01;
+  color: #f1f1f1;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 16px;
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+
+  display: none;
+  cursor: pointer;
+}

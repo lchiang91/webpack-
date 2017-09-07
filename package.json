@@ -1,0 +1,24 @@
+{
+  "name": "requirejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.5.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lchiang91/requirejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lchiang91/requirejs/issues"
+  },
+  "homepage": "https://github.com/lchiang91/requirejs#readme"
+}
